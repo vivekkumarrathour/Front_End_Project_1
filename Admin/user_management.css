@@ -1,0 +1,21 @@
+body{
+    background: linear-gradient(to right, rgb(172, 213, 213),white);
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: 1 1 250px;
+    justify-content: space-between;
+    gap: 15px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #e1eff1;
+    box-shadow: 0 7px 3px rgba(10, 9, 9, 0.1);
+
+}
+
+.seperate_form{
+
+}
