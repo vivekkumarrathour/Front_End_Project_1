@@ -22,7 +22,7 @@ body{
     height: 270px;
     width: 270px;
     display: block;
-    margin-left: auto;
+    /* margin-left: auto; */
     border: 5px solid rgb(0, 208, 255);
     background: white;
     border-radius: 35px;
