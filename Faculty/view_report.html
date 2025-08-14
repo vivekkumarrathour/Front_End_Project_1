@@ -7,6 +7,73 @@
     <link rel="stylesheet" href="view_report.css">
 </head>
 <body>
-    <center><h1>View Report</h1></center>
+    <center><h1 class="heading"><b>View Report</b></h1></center>
+            
+
+   <center>
+     <table class="box">
+        
+            <form action="Add.php" method="post">
+        <tr>      
+            <td> Student ID : </td>  
+<td>
+            <input id="id" placeholder="Enter id" type="text"><br>
+
+</td>        
+        </tr>
+
+        <tr> 
+            <td>Year : </td>  
+            <td>
+                   <select name="Handouts" id="txtHandouts">
+                    <option value="select">Select</option>
+                    <option value="select">1st year</option>
+                    <option value="select">2nd Year</option>
+                    <option value="select">3rd Year</option>
+                     <option value="select">4th Year</option>
+                    <!-- <option value="select">FRONT END DEVELOPMENT FRAMEWORKS</option> -->
+                    
+
+                   </select>
+            </td>  
+        </tr>
+
+        <tr>      
+            <td> Work   : </td>  
+<td>
+            <select name="Handouts" id="txtHandouts">
+                    <option value="select">Select</option>
+                    <option value="select">Home Assignment</option>
+                    <option value="select">ALM</option>
+                    <option value="select">TUTORIALS</option>
+
+</td>        
+        </tr>
+       
+        <tr> 
+            <td>Courses : </td>  
+            <td>
+                   <select name="Handouts" id="txtHandouts">
+                    <option value="select">Select</option>
+                    <option value="select">GLOBAL LOGIC BUILDING CONTEST PRACTICUM</option>
+                    <option value="select">DATABASE MANAGEMENT SYSTEMS</option>
+                    <option value="select">OPERATING SYSTEMS</option>
+                     <option value="select">OBJECT ORIENTED PROGRAMMING</option>
+                    <option value="select">FRONT END DEVELOPMENT FRAMEWORKS</option>
+                    
+
+                   </select>
+            </td>  
+        </tr>
+
+
+    </table>
+   </center>
+    <center>    <button id="Add" class="button_font" > VIEW </button>
+</center>
+
+
+
+    </form>
 </body>
 </html>

@@ -7,7 +7,52 @@
     <link rel="stylesheet" href="course_management.css">
 </head>
 <body>
-<center>    <h1>Course Management</h1>
+
+
+     <center><h1 class="heading"><b>Course Management</b></h1></center>
+
+   <center>
+     <table class="box">
+        
+            <form action="Add.php" method="post">
+        <tr>      
+            <td> Student ID : </td>  
+<td>
+            <input id="id" placeholder="Enter id" type="text"><br>
+
+</td>        
+        </tr>
+        <tr>
+            <td>Course to edit : </td>
+            <td>
+                        <input course="course" placeholder="Enter the course" type="text"><br>
+
+            </td>
+        </tr>
+        <tr> 
+            <td>Edit : </td>  
+            <td>
+                   <select name="Handouts" id="txtHandouts">
+                    <option value="select">Select</option>
+                    <option value="select">Handouts</option>
+                    <option value="select">Syllabus</option>
+                    <option value="select">Exam Date</option>
+
+                   </select>
+            </td>  
+        </tr>
+
+    </table>
+   </center>
+    <center>    <button id="Add" class="button_font" > Edit </button>
 </center>
+
+
+
+    </form>
+
+
+    
+
 </body>
 </html>

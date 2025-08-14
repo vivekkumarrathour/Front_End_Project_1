@@ -9,8 +9,53 @@
 <body>
    <center>
      <h1>
-        View Course
+        Report Dashboards
     </h1>
    </center>
+
+   <center>
+     <table class="box">
+        
+            <form action="Add.php" method="post">
+        <tr>      
+            <td>ID : </td>  
+<td>
+    <select name="select" id="txtselect">
+        <option value="Select Role">select </option>
+        <option value="Faculty">Faculty</option>
+        <option value="Student">Student</option>
+    </select>       
+    <!-- <input id="id" placeholder="Enter id" type="text"><br> -->
+
+</td>        
+        </tr>
+        <tr>
+            <td>Course : </td>
+            <td>
+                    <input id="id" placeholder="Enter id" type="text"><br>
+
+                        
+
+            </td>
+        </tr>
+        <tr> 
+            <td>Report : </td>  
+            <td>
+                   <!-- <input marks="marks" type="text"><br> -->
+                    <input course="course" placeholder="Enter the course" type="text"><br
+            </td>  
+        </tr>
+
+    </table>
+   </center>
+    <center>    <button id="Add"  cellpadding = 20 cellspacing = 20 class="button_font"> See the results </button>
+</center>
+
+
+
+    </form>
+
+
+    
 </body>
 </html>

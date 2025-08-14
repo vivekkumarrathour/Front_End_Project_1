@@ -7,6 +7,49 @@
     <link rel="stylesheet" href="post_marks.css">
 </head>
 <body>
-    <center><h1>Post Marks</h1></center>
+    <!-- <center><h1>Post Marks</h1></center>
+      -->
+
+      <center><h1 class="heading"><b>Post Marks</b></h1></center>
+
+   <center>
+     <table class="box">
+        
+            <form action="Add.php" method="post">
+        <tr>      
+            <td> Student ID : </td>  
+<td>
+            <input id="id" placeholder="Enter id" type="text"><br>
+
+</td>        
+        </tr>
+        <tr>
+            <td>Select Course : </td>
+            <td>
+                        <input course="course" placeholder="Enter the course" type="text"><br>
+
+            </td>
+        </tr>
+        <tr> 
+            <td>Edit : </td>  
+            <td>
+                   <select name="Handouts" id="txtHandouts">
+                    <option value="select">Select</option>
+                    <option value="select">Home Assignments</option>
+                    <option value="select">ALM</option>
+                    <option value="select">Tutorials</option>
+
+                   </select>
+            </td>  
+        </tr>
+
+    </table>
+   </center>
+    <center>    <button id="Add" class="button_font" > POST </button>
+</center>
+
+
+
+    </form>
 </body>
 </html>

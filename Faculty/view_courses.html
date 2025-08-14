@@ -3,10 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Courses</title>
     <link rel="stylesheet" href="view_courses.css">
 </head>
 <body>
-    <center><h1>View Courses</h1></center>
+    <!-- <center><h1>View Courses</h1></center> -->
+           <center><h1 class="heading"><b>View Courses</b></h1></center>
+
+   <center>
+     <table class="box">
+        
+            <form action="Add.php" method="post">
+        <tr>      
+            <td> Student ID : </td>  
+<td>
+            <input id="id" placeholder="Enter id" type="text"><br>
+
+</td>        
+        <tr> 
+            <td>Courses : </td>  
+            <td>
+                   <select name="Handouts" id="txtHandouts">
+                    <option value="select">Select</option>
+                    <option value="select">GLOBAL LOGIC BUILDING CONTEST PRACTICUM</option>
+                    <option value="select">DATABASE MANAGEMENT SYSTEMS</option>
+                    <option value="select">OPERATING SYSTEMS</option>
+                     <option value="select">OBJECT ORIENTED PROGRAMMING</option>
+                    <option value="select">FRONT END DEVELOPMENT FRAMEWORKS</option>
+                    
+
+                   </select>
+            </td>  
+        </tr>
+        <tr> 
+            <td>Edit : </td>  
+            <td>
+                   <select name="Handouts" id="txtHandouts">
+                    <option value="select">Select</option>
+                    <option value="select">Home Assignments</option>
+                    <option value="select">ALM</option>
+                    <option value="select">Tutorials</option>
+
+                   </select>
+            </td>  
+        </tr>
+
+    </table>
+   </center>
+    <center>    <button id="Add" class="button_font" > POST </button>
+</center>
+
+
+
+    </form>
 </body>
 </html>

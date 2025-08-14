@@ -1,7 +1,8 @@
-body{
-    margin: 10px;
+body
+{
+    background-color: rgb(62, 141, 77);
+      margin: 10px;
     padding: 50px;
-    background: radial-gradient(pink);
 }
 
 .heading {
@@ -14,50 +15,45 @@ body{
   
 }
 
-
-
-.image{
-
-    display: block;
-    margin-left: auto;
-    border: 5px solid rgb(0, 208, 255);
-    
-    border-radius: 35px;
- 
-}
-.image:hover
-{
-        box-shadow: 0 05px 20px 10px rgba(255, 255, 255, 1) ;
-        transform: scale(1.05);
-
-}
-.table {
-    /* margin: 0 auto; */
-        display: flex;
-      justify-content: center;
-    text-align: center;
-}
-
-.new{
-   
+.box{
 background: radial-gradient( pink, white);
 max-width: 900px;
 max-height: 700px;
 margin: auto;
 padding: 30px;
-border-radius: 37px;
+border-radius: 20px;
 /* border: 5px solid red; */
 
 }
 
 
-.new:hover{
+.box:hover{
     /* border: 5px solid red; */
-    background: radial-gradient( pink, white);
+    background: radial-gradient(blue, white);
     transform: scale(1.02);
-    box-shadow: 0px 20px 95px  rgb(255,255,255);
-    overscroll-behaviour-x: 0px 12px 36px rgb(84, 233, 235) ;
+    /* box-shadow: 0px 20px 95px  rgb(255,255,255); */
+    /* overscroll-behaviour-x: 0px 12px 36px rgb(84, 233, 235) ; */
 
     
 }
 
+/* .add
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+} */
+
+
+.button_font{
+    
+    /* background: red;
+    color: brown; */
+    background-color: blue;
+    color: white; /* makes text readable on blue */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px; /* optional, makes corners rounded */
+    cursor: pointer;
+     margin-top: 30px;
+    margin-bottom: 30px;
+}
