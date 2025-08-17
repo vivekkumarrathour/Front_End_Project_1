@@ -1,6 +1,6 @@
 body
 {
-    background-color: rgb(62, 141, 77);
+    background-color: rgb(15, 228, 235);
       margin: 10px;
     padding: 50px;
 }
@@ -16,7 +16,7 @@ body
 }
 
 .box{
-background: radial-gradient( blue, white);
+background: radial-gradient( pink, white);
 max-width: 900px;
 max-height: 700px;
 margin: auto;
@@ -29,7 +29,7 @@ border-radius: 20px;
 
 .box:hover{
     /* border: 5px solid red; */
-    background: radial-gradient( pink, white);
+    background: radial-gradient( rgb(179, 45, 159), white);
     transform: scale(1.02);
     /* box-shadow: 0px 20px 95px  rgb(255,255,255); */
     /* overscroll-behaviour-x: 0px 12px 36px rgb(84, 233, 235) ; */
