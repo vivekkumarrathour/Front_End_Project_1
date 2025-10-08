@@ -1,12 +1,14 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main DashBoard</title>
-    <link rel="stylesheet" href="index.css">
+     <link rel="stylesheet" href="index.css"> 
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
 </head>
-<body>
+<body class="bg-secondary bg-gradient min-vh-100" >
     <center>
     <h1 class="heading">RESULT ANALYSIS</h1>
     </center>
@@ -49,5 +51,68 @@
     </table>
    </div>
     </center>
+</body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Main Dashboard</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+
+
+</head>
+<body class="bg-secondary min-vh-100">
+
+  <div class="container text-center py-5">
+    <h1 class="mb-5 text-danger display-4"><strong>RESULT ANALYSIS DASHBOARD</strong></h1>
+
+    <div class="row justify-content-center g-4">
+      
+      <!-- Admin -->
+      <div class="col-md-3">
+        <div class="card shadow-lg h-100 border-0">
+          <a href="Admin/admin_index.html">
+            <img src="Admin/admin_media/Admin.png" class="card-img-top p-3" alt="Admin" height="300">
+          </a>
+          <div class="card-body">
+            <h4 class="card-title">Admin</h4>
+          </div>
+        </div>
+      </div>
+
+      <!-- Student -->
+      <div class="col-md-3">
+        <div class="card shadow-lg h-100 border-0">
+          <a href="Students/student_index.html">
+            <img src="Students/student_media/student.png" class="card-img-top p-3" alt="Student" height="300">
+          </a>
+          <div class="card-body">
+            <h4 class="card-title">Student</h4>
+          </div>
+        </div>
+      </div>
+
+      <!-- Faculty -->
+      <div class="col-md-3">
+        <div class="card shadow-lg h-100 border-0">
+          <a href="Faculty/faculty_index.html">
+            <img src="Faculty/faculty_media/faculty.png" class="card-img-top p-3" alt="Faculty" height="300">
+          </a>
+          <div class="card-body">
+            <h4 class="card-title">Faculty</h4>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
 </body>
 </html>
